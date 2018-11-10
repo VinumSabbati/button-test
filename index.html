@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JS Buttons</title>
+    <meta name="viewport" content="width=device-width">
+    <script type="text/javascript" src="script.js"></script>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div class="main">
+        <div class="dropdown-container">
+            <button id='btnOne' class="btn dropbtn" onclick={onBtnOneClick()}>Menu One</button>
+            <div id="dropOne" class="dropdown-content">
+                <h4>Menu One</h4>
+                <a href="#">Item 1</a>
+                <a href="#">Item 2</a>
+                <a href="#">Item 3</a>
+            </div>
+        </div>
+        <div class="dropdown-container">
+            <button id='btnTwo' class="btn two dropbtn" onclick={onBtnTwoClick()}>Menu Two</button>
+            <div id="dropTwo" class="dropdown-content">
+                <h4>Menu Two</h4>
+                <a href="#">Item 1</a>
+                <a href="#">Item 2</a>
+                <a href="#">Item 3</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
